@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 780px;
+            /* border-style: groove; */
+            padding: 0px 10px;
+        }
+        .content1::first-letter {
+            color: red;
+            font-size: xx-large;
+        }
+        .content2::first-line {
+            color: #0000ff;
+            font-variant: small-caps;
+        }
+        /* ::marker {
+            color: black;
+            font-size: 23px;
+        } */
+        .link {
+            color: rgb(88,28,139);
+        }
+    </style>
+</head>
+<body>
+    <div class="container " >
+        <h1>Ví dụ về các hình thức trình bài trong CSS ( CSS Pseudo-elements)</h1> 
+        <p class="content1">  Việt Nam nằm trong bán đảo Đông Dương , thuộc vùng đông nam châu Á 
+        . Lãnh thổ Việt Nam chạy dọc bờ biển phía đông của bán đảo này . Việt Nam có biên giới 
+        đất liền với Trung Quốc (1.281 km) , Lào ( 2.130 km) , và Campuchia (1.228 km) 
+    và bờ biển dài 3.444 km tiếp giáp với vịnh Bắc Bộ , biển Đông và vịnh Thái Lan </p>
+    <p class="content2" >
+        Việt Nam có diện tích 331.212 km <sup>2</sup> ,bao gồm khoảng 327.480 km <sup>2</sup> đất liền và hơn 4.200 km <sup>2</sup> 
+        biển nội thủy , với hơn 2.800 hòn đảo , bãi đá ngầm lớn nhỏ , gần và xa bờ , bao gồm cả Trường Sa và Hoàng Sa mà Việt Nam tuyên bố chủ quyền ,
+        có vùng nội thủy , lãnh hải , vùng đặc quyền kinh tế và thềm lục địa được Chính phủ Việt Nam xác định gần gấp ba lần diện tích đất liền 
+        khoảng trên 1 triệu km <sup>2</sup>
+    </p>
+    <h2> The following properties apply to the ::first-letter pseudo-element : </h2>
+    <div class="content3" >
+        <ul>
+            <li>font properties</li>
+            <li>color properties</li>
+            <li>background properties</li>
+            <li>margin properties</li>
+            <li>padding properties</li>
+            <li>boders properties</li>
+            <li>text-decoration</li>
+            <li>vertical-align ( only if "float" is "none"  </li>
+            <li>text transform  </li>
+            <li> line height </li>
+            <li>clear  </li>
+        </ul>
+    </div>
+    <h2> The following properties apply to the::fires-line pseudo-element : </h2>
+
+    <div class="content4" >
+        <ul>
+            <li>font properties</li>
+            <li>color properties</li>
+            <li>background properties</li>
+            <li>margin properties</li>
+            <li>padding properties</li>
+            <li>boders properties</li>
+            <li>text-decoration</li>
+            <li>vertical-align ( only if "float" is "none"  </li>
+            <li>text transform  </li>
+            <li> line height </li>
+            <li>clear  </li>
+        </ul>
+    </div>
+    <a class="link"  href="#">Visit here to see more details</a>
+    
+    </div>
+</body>
+</html>
